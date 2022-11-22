@@ -12,12 +12,13 @@ export class AppComponent {
   email: string = "sam.schultz@outlook.com";
   linkedin: string="LinkedIn";
   techtitle:string="Technologies";
+  namephoneClassStyle:string="";
   tech: string[]=[
     "Git","C#","CSS","SQL","Spring","NET Core",
     "Bootstrap","Typescript","Java","Entity Framework",
     "HTML","MySQL","WebApi","JavaScript","SQL Server","JSON",
     "REST","Maven","Agile","MS SQL","jQuery","Scrum",
-    "Angular","ASP .Net",".Net","Exlipse","Hibernate","Git Hub",
+    "Angular","ASP .Net",".Net","Eclipse","Hibernate","Git Hub",
     "SSMS"
   ]
 
@@ -29,5 +30,9 @@ export class AppComponent {
     "Shawnee State University | Portsmouthm OH | Simulation and Video Engineering",
     "Highlands High School | Fort Thomas, KY | College Prep"
   ]
+
+  highlightText():void {
+this.namephoneClassStyle = "text-primary"
+  }
 
 }

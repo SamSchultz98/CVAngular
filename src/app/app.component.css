@@ -21,23 +21,23 @@ body {
   
     .mytable {
       color: #725288;
-      border-collapse: collapse;
+      border-collapse: separate;
       width: max-content;
-      margin-left: 300px;
+      margin-left: 13.5%;
       margin-right: auto;
       border: 1pt solid;
       border-color: #725288;
       display:inline-table;
       width:75%;
       border: solid;
+      border-radius: 15px;
       }
   
 
     td {
       font-size: large;
-     
+      border-left: none;
       font-weight: bold;
-      border: solid;
       border-color: #528872;
     
     }
@@ -74,6 +74,12 @@ body {
       font-size: large;
       color: #725288;
   
+    }
+
+    .linkedin{
+      margin-left: 47.8%;
+      color: #725288;
+      font-size: larger;
     }
     
   
